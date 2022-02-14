@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ededed;
+}
+
+.header {
+    background-color: #fff159;
+    margin-bottom: -31px;
+}
+
+.header_img {
+    margin-left: 120px;
+}
+
+#banner {
+    margin: 0px;
+}
+
+#main-img {
+    max-width: 100%;
+}
+
+.nav_search {
+    float: right;
+    position: relative;
+    margin-top: 0;
+    bottom: 48px;
+    right: 195px;
+}
+
+#finder {
+    height: 32px;
+    width: 550px;
+    border-color: white;
+    padding-left: 14px;
+    margin: 0px;
+
+}
+
+#location ul {
+    list-style: none;
+    margin: 0px;
+    float: left;
+    padding: 0;
+}
+
+button {
+    margin-left: 120px;
+    text-align: left;
+    background-color: #fff159;
+    border: none;
+}
+
+button:hover {
+    border: 0.5px solid #c7bcbc;
+    border-radius: 4px;
+}
+
+.letrasGris {
+    color: #333333;
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+#geo_logo {
+    float: left;
+    margin-top: 6px;
+    position: relative;
+    top: 2px;
+}
+
+#enviarA {
+    color: #837d7d;
+    font-size: 11px;
+    position: relative;
+    top: 4px;
+}
+
+#botonEnviar {
+    text-decoration: none;
+    position: relative;
+    bottom: 2px;
+}
+
+#menu1 {
+    max-width: fit-content;
+    position: relative;
+    left: 18rem;
+    bottom: 22px;
+    font-size: 13px;
+}
+
+#menu1 li a:hover {
+    color: #242424;
+    transition-duration: 0.5s;
+}
+
+#menu2 li a:hover {
+    color: #000000;
+    transition-duration: 0.5s;
+} 
+
+
+#menu1 ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu1 li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#menu1 a {
+    text-decoration: none;
+    color: rgba(51, 51, 51, 0.6);
+}
+
+#menu2 {
+    background-color: #fff159;
+    position: relative;
+    max-width: fit-content;
+    left: 60.5rem;
+    bottom:43px;
+    font-size: 13px;
+    padding: 0px;
+}
+
+#menu2 ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu2 li {
+    display: inline-block;
+    margin-left: 20px; 
+}
+
+#menu2 a {
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+}
+
+#finder-label{
+    color: #04047e;
+    margin-left: 65px;
+    font-size: 13px;
+}
+
+#lupa {
+    background-color: white;
+    padding: 9px;
+    margin:0px;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(51, 51, 51, 0.4);
+    font-size: 14px;
+    border-color: white;
+  }
+
+#downArrow {
+    margin-left: 3px;
+    position: relative;
+    top: 2px;
+}
+
+#carrito {
+    position: relative;
+    top: 3px;
+}
+
+/* 2da Parte */
+
+.pagos {
+    position: relative;
+    bottom: 6px;
+}
+
+.pagos ul {
+    list-style: none;
+    margin-left: -13px;
+}
+
+.pagos li {
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 5px;
+}
+
+.pagos a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+}
+
+.pagosAnexo {
+    position: relative;
+    bottom: 21px;
+}
+
+.pagosAnexo ul {
+    list-style: none;
+}
+
+.pagosAnexo li {
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+
+.pagosAnexo a {
+    text-decoration: none;
+    font-size: 12.5px;
+    color: #3483fa;
+}
+
+.barraPagos {
+    background-color: #ffffff;
+    margin: 0px 125px;
+    border-radius: 4px;
+    height: 88px;
+    width: 1184px;
+    position: relative;
+    left: 5px;
+    top: 20px;
+}
+
+.pagos_icon {
+    position: relative;
+    top: 26px;
+    right: 12px;
+}
+
+#item4 {
+    position: relative;
+    left: 238px;
+}
+
+#item3 {
+    position: relative;
+    left: 201px;
+}
+
+#item2 {
+    position: relative;
+    left: 64px;
+}
+
+#item1 {
+    position: relative;
+    left: 41px;
+}
+
+#icon_mas {
+    position: relative;
+    right: 33px; 
+}
+
+/* 3ra Parte */
+
+.container3 {
+    width: 1440px;
+    height: 470px;
+}
+
+.barraBusqueda {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    width: 1200px;
+    height: 390px;
+    margin-left: 128px;
+}
+
+.historial {
+    width: 224px;
+}
+
+#tituloProductos {
+    font-size: 23px;
+    font-weight: 200;
+    color:#666666;
+}
+
+#cabeceraProductos {
+    margin-left: 128px;
+    display: flex;
+    margin-top: 23px;
+}
+
+h5 {
+    position: relative;
+    margin-left: 14px;
+    top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h5 a {
+    text-decoration: none;
+    color: #3483fa;
+}
+
+.heart {
+    position: relative;
+    left: 185px;
+    bottom: 205px;
+    width: 18px;
+    visibility: hidden;
+}
+
+.historial:hover {
+    box-shadow: 3px 3px 15px #a7a7a7; 
+}
+
+.numeritos {
+    font-weight: 400;
+    position: relative;
+    bottom: 8px;
+    left: 13px;
+}
+
+p {
+    font-size: 13px;
+    font-weight: bold;
+    color: #4aa359;
+    position: relative;
+    bottom: 32px;
+    left: 13px;
+}
+
+.precioLoco {
+    background-color: #ffffff;
+    position: relative;
+    bottom: 30px;
+    max-width: 224px;
+    padding-bottom: 0.1px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius: 4px;
+    border-top: 0.5px solid #ecebeb;
+}
+
+
+
+#prod1 a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 22px;
+}
+
+#prod2 a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 22px;
+}
+
+#prod3 a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 22px;
+}
+
+#prod4 a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 22px;
+}
+
+#prod5 a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#prod1 {
+    background-color:violet;
+}
+
+.precioLoco {
+    background-color: violet;
+} */
