@@ -13,11 +13,12 @@ body {
 
 .header {
     background-color: #fff159;
-    margin-bottom: -31px;
+    margin-bottom: -34px;
 }
 
 .header_img {
     margin-left: 120px;
+    margin-top: 1px;
 }
 
 #banner {
@@ -32,8 +33,8 @@ body {
     float: right;
     position: relative;
     margin-top: 0;
-    bottom: 48px;
-    right: 195px;
+    bottom: 46px;
+    right: 189px;
 }
 
 #finder {
@@ -42,7 +43,6 @@ body {
     border-color: white;
     padding-left: 14px;
     margin: 0px;
-
 }
 
 #location ul {
@@ -53,16 +53,16 @@ body {
 }
 
 button {
+    background-color: #fff159;
     margin-left: 120px;
     text-align: left;
-    background-color: #fff159;
-    border: none;
+    border: 0.5px solid #fff159;
 }
 
 button:hover {
     border: 0.5px solid #c7bcbc;
     border-radius: 4px;
-}
+} 
 
 .letrasGris {
     color: #333333;
@@ -108,7 +108,6 @@ button:hover {
     transition-duration: 0.5s;
 } 
 
-
 #menu1 ul {
     list-style: none;
     margin: 0px;
@@ -130,7 +129,7 @@ button:hover {
     position: relative;
     max-width: fit-content;
     left: 60.5rem;
-    bottom:43px;
+    bottom:45px;
     font-size: 13px;
     padding: 0px;
 }
@@ -155,12 +154,18 @@ button:hover {
     color: #04047e;
     margin-left: 65px;
     font-size: 13px;
+    cursor: pointer;
 }
 
 #lupa {
     background-color: white;
-    padding: 9px;
+    padding: 7px 12px 9px 12px;
     margin:0px;
+    position: relative;
+    right: 14px;
+    border-left: 0.5px solid #c7bcbc;
+    border-top: 2px solid #9e9e9e;
+    cursor: pointer;
 }
 
 ::-webkit-input-placeholder {
@@ -173,6 +178,7 @@ button:hover {
     margin-left: 3px;
     position: relative;
     top: 2px;
+    cursor: pointer;
 }
 
 #carrito {
@@ -264,7 +270,16 @@ button:hover {
 
 #icon_mas {
     position: relative;
-    right: 33px; 
+    right: 33px;
+    cursor: pointer;
+}
+
+#item1:hover, #item2:hover, #item3:hover, #item4:hover {
+    color: #2020c5;
+}
+
+h5 a:hover {
+    color: #2020c5;
 }
 
 /* 3ra Parte */
@@ -317,11 +332,23 @@ h5 a {
     left: 185px;
     bottom: 205px;
     width: 18px;
-    visibility: hidden;
+    visibility: hidden;    /* resolver heart hover */
 }
 
-.historial:hover {
+
+#prod1:hover, #prod2:hover, #prod3:hover, #prod4:hover, #prod5:hover {
     box-shadow: 3px 3px 15px #a7a7a7; 
+}
+
+#prod1, #prod2, #prod3, #prod4, #prod5 {
+    height: 336px;
+    width: 224px;
+    background-color: violet;
+}
+
+#prod2, #prod3, #prod4, #prod5 {
+    position: relative;
+    right: 3px;
 }
 
 .numeritos {
@@ -350,8 +377,6 @@ p {
     border-bottom-right-radius: 4px;
     border-top: 0.5px solid #ecebeb;
 }
-
-
 
 #prod1 a {
     text-decoration: none;
@@ -383,23 +408,16 @@ p {
     font-size: 22px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*#prod1 {
-    background-color:violet;
+.autor {
+    max-width: fit-content;
+    color: #9e9696;
+    font-family:monospace;
+    font-weight: 100;
+    font-style: italic;
+   
 }
 
-.precioLoco {
-    background-color: violet;
-} */
+.autor a {
+    text-decoration: none;
+    color: #5c9af7;
+}
