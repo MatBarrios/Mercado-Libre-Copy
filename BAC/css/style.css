@@ -335,7 +335,6 @@ h5 a {
     visibility: hidden;    /* resolver heart hover */
 }
 
-
 #prod1:hover, #prod2:hover, #prod3:hover, #prod4:hover, #prod5:hover {
     box-shadow: 3px 3px 15px #a7a7a7; 
 }
@@ -343,7 +342,6 @@ h5 a {
 #prod1, #prod2, #prod3, #prod4, #prod5 {
     height: 336px;
     width: 224px;
-    background-color: violet;
 }
 
 #prod2, #prod3, #prod4, #prod5 {
@@ -413,8 +411,7 @@ p {
     color: #9e9696;
     font-family:monospace;
     font-weight: 100;
-    font-style: italic;
-   
+    font-style: italic;  
 }
 
 .autor a {
